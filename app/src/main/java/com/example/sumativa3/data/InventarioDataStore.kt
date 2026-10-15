@@ -9,5 +9,5 @@ val Context.inventarioDataStore by preferencesDataStore(name = "inventario_prefe
 object PreferenciasInventario {
     val CODIGO_AUDITOR = stringPreferencesKey("codigo_auditor")
     val ULTIMA_UBICACION = stringPreferencesKey("ultima_ubicacion")
-    val MODO_VISTA = stringPreferencesKey("modo_vista") // "lista" o "cuadricula"
+    val MODO_VISTA = stringPreferencesKey("modo_vista")
 }
